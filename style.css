@@ -1,0 +1,173 @@
+*body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#navbar{
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    z-index: 100;
+    padding: 0.5rem 3rem;
+    background-color: #0A1753;
+}
+.navbar .navbar-brand{
+    font-size: 35px;
+    font-weight: 700;
+}
+#navbarSupportedContent a{
+    color: white;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid white;
+}
+#navbarSupportedContent button{
+    background-color: #FABA0D;
+    border-radius: 10px;
+    font-size: 15px;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* home */
+#home{
+    background: url(background.png);
+    background-size: cover;
+    flex-direction: column;
+}
+
+
+#home h1 {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 800;
+    
+}
+
+#home p {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
+
+#home .input-group {
+    width: 50%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+
+
+#home .signin {
+    border: none;
+    border-radius: 5px;
+    background-color: #faba0d;
+    color: black;
+}
+
+@media (min-width: 992px) {
+
+    #home h1 {
+        font-size: 5rem;
+        text-shadow: 0px 1px 0px #ccc,
+                0px 2px 0px #ccc,
+                0px 3px 0px #ccc,
+                0px 4px 0px #ccc,
+                0px 5px 0px #ccc,
+                0px 6px 0px #ccc;
+    }
+
+    #home .input-group {
+        width: 30%;
+    }
+        
+}
+/* about */
+#about{
+    background-image: url(about\ bg.png);
+}
+#about h1{
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about p{
+    color: white;
+    font-weight: 500;
+}
+#about .img-fluid{
+    margin-left: 20px;
+   height: 400px;
+   width: 400px;
+}
+/* products */
+#products{
+    background-color: #e5e5e5;
+}
+#products h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+#products .img{
+    width: 200px;
+    height: 200px;
+}
+
+.card{
+    width: 250px;
+    height: 300px;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+                inset 4px 4px 0px white;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+    transition: .2s;
+}
+.card:hover{
+    box-shadow: inset 5px  5px 10px rgba(0, 0, 0, .3),
+        inset -4px -4px 0px white;
+    transition: .2s;
+}
+#products .signin{
+    background-color: #faba0d;
+    font-weight:500;
+}
+/* contact us */
+#contact img{
+    height: 100%;
+}
+#contact .mc{
+    margin-top: 60px;
+}
+#contact .mf {
+    margin-top: 30px;
+}
+#contact form{
+    display: flex;
+    flex-direction: column;
+}
+#contact input{
+    margin-bottom: 20px;
+}
+#contact button {
+    background-color: #faba0d;
+    margin-top: 24px;
+    font-weight: 500;
+}
